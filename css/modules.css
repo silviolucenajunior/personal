@@ -1,0 +1,82 @@
+.heading1 {
+  font-weight: 900;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #000205;
+  font-size: 52px;
+  margin: 0px;
+  padding: 0px; }
+
+.heading2 {
+  font-weight: 300;
+  font-size: 38px;
+  margin: 0px;
+  padding: 0px; }
+
+.header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+  .header p {
+    color: #a7b8b5;
+    font-size: 12px;
+    text-align: right;
+    margin: 0px; }
+  .header__menu {
+    margin-top: 42px;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 0px; }
+    .header__menu_item {
+      margin: 0px 8px;
+      float: left; }
+    .header__menu_item > a, .header__menu_item > a:link, .header__menu_item > a:visited, .header__menu_item > a:active {
+      text-decoration: none;
+      color: #267491; }
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 122px auto 0 auto;
+  max-width: 1180px; }
+  .skills__description {
+    color: #a7b8b5;
+    font-size: 16px;
+    font-weight: 200; }
+  .skills__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0px; }
+  .skills__item {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 175px;
+    background-color: #267491;
+    color: #a7b8b5;
+    margin: 6px;
+    padding: 12px; }
+  .skills__item_icon {
+    width: 32px;
+    height: 32px;
+    fill: red; }
+
+.about-me__bio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+.about-me__description {
+  font-size: 14px;
+  font-weight: 300; }
+
+/*# sourceMappingURL=modules.css.map */

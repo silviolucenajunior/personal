@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="initial-scale=1" />
+        <title>Silvio Lucena Junior</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,300i,400,600,900" rel="stylesheet">
+        <link href="css/style.css" type="text/css" rel="stylesheet" />
+        <link href="css/modules.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="particle-container" style="position: absolute; z-index: -1; width: 100%;"></div>
+        <header class="header">
+            <div>
+                <h1 class="heading1">Silvio Lucena Junior</h1>
+                <p>A full stack web developer passionate with software craftmanship</p>
+            </div>
+            <nav>
+                <ul class="header__menu">
+                    <li class="header__menu_item">
+                        <a href="#!">About me</a>
+                    </li>
+                    <li class="header__menu_item">
+                        <a href="#!">My Skills</a>
+                    </li>
+                    <li class="header__menu_item">
+                        <a href="#!">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="skills">
+            <h2 class="heading2">Skills</h2>
+            <div class="skills__description">
+                <p>Ut accumsan ipsum risus, et varius tortor bibendum non. Fusce mattis maximus consequat. Proin turpis urna, commodo eget commodo eu, lacinia at justo. Pellentesque non orci quam. Nulla tempor nulla ut justo hendrerit, auctor facilisis mi pellentesque. Donec vel gravida tellus.
+</p>
+            </div>
+            <ul class="skills__list">
+                <li class="skills__item">
+                    <svg class="skills__item_icon">
+                        <use xlink:href='svg/sprites.svg#simple-html5-icon'></use>
+                    </svg>
+                    <span>HTML 5 *** </span>
+                    <p>Writing tags since 2008</p>
+                </li>
+                <li class="skills__item">
+                    <img class="skills__item_icon" src="/svg/html5.svg" />
+                    <span>HTML 5</span>
+                    <p>Writing tags since 2008</p>
+                </li>
+                <li class="skills__item">
+                    <img class="skills__item_icon" src="/svg/html5.svg" />
+                    <span>HTML 5</span>
+                    <p>Writing tags since 2008</p>
+                </li>
+                <li class="skills__item">
+                    <img class="skills__item_icon" src="/svg/html5.svg" />
+                    <span>HTML 5</span>
+                    <p>Writing tags since 2008</p>
+                </li>
+                <li class="skills__item">
+                    <img class="skills__item_icon" src="/svg/html5.svg" />
+                    <span>HTML 5</span>
+                    <p>Writing tags since 2008</p>
+                </li>
+                <li class="skills__item">
+                    <img class="skills__item_icon" src="/svg/html5.svg" />
+                    <span>HTML 5</span>
+                    <p>Writing tags since 2008</p>
+                </li>
+                <li class="skills__item">
+                    <img class="skills__item_icon" src="/svg/html5.svg" />
+                    <span>HTML 5</span>
+                    <p>Writing tags since 2008</p>
+                </li>
+                <li class="skills__item">
+                    <img class="skills__item_icon" src="/svg/html5.svg" />
+                    <span>HTML 5</span>
+                    <p>Writing tags since 2008</p>
+                </li>
+                <li class="skills__item">
+                    <img class="skills__item_icon" src="/svg/html5.svg" />
+                    <span>HTML 5</span>
+                    <p>Writing tags since 2008</p>
+                </li>
+                <li class="skills__item">
+                    <img class="skills__item_icon" src="/svg/html5.svg" />
+                    <span>HTML 5</span>
+                    <p>Writing tags since 2008</p>
+                </li>
+                <li class="skills__item">
+                    <img class="skills__item_icon" src="/svg/html5.svg" />
+                    <span>HTML 5</span>
+                    <p>Writing tags since 2008</p>
+                </li>
+                <li class="skills__item">
+                    <img class="skills__item_icon" src="/svg/html5.svg" />
+                    <span>HTML 5</span>
+                    <p>Writing tags since 2008</p>
+                </li>
+            </ul>
+        </section>
+        <section class="about-me">
+            <h2 class="heading2">About me</h2>
+            <div class="about-me__bio">
+                <img class="about-me__avatar" src="/img/perfil.jpg" />
+                <div class="about-me__description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel egestas nisi. Etiam ipsum odio, mollis eget ante blandit, molestie scelerisque justo. Mauris aliquam, odio vitae fermentum imperdiet, neque ligula tincidunt lacus, consequat vestibulum mauris nibh a nulla.</p>
+                    <p>Morbi sagittis viverra vestibulum. Mauris convallis, tortor eget consectetur tempus, nisl eros luctus turpis, et condimentum orci sem sed ipsum.</p>
+                </div>
+            </div>
+            <div class="about-me__timeline">
+                <ul>
+                    <li>
+                        <span>Index Comunicação Digital.</span>
+                    </li>
+                    <li>
+                        <span>Intrapoint</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        </section class="contact">
+           <div class="contact__information"></div>
+           <div class="contact__form"></div>
+           <div class="contact__social"></div>
+        </section>
+        <script src="/js/particles.js"></script>
+        <script>
+           particlesJS('particle-container',
+  
+            {
+                "particles": {
+                "number": {
+                    "value": 50,
+                    "density": {
+                    "enable": true,
+                    "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                    "width": 0,
+                    "color": "#000000"
+                    },
+                    "polygon": {
+                    "nb_sides": 5
+                    },
+                    "image": {
+                    "src": "img/github.svg",
+                    "width": 100,
+                    "height": 100
+                    }
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false,
+                    "anim": {
+                    "enable": false,
+                    "speed": 1,
+                    "opacity_min": 0.1,
+                    "sync": false
+                    }
+                },
+                "size": {
+                    "value": 5,
+                    "random": true,
+                    "anim": {
+                    "enable": false,
+                    "speed": 40,
+                    "size_min": 0.1,
+                    "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 6,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "attract": {
+                    "enable": false,
+                    "rotateX": 600,
+                    "rotateY": 1200
+                    }
+                }
+                },
+                "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                    "enable": false,
+                    "mode": "repulse"
+                    },
+                    "onclick": {
+                    "enable": false,
+                    "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                    "distance": 400,
+                    "line_linked": {
+                        "opacity": 1
+                    }
+                    },
+                    "bubble": {
+                    "distance": 400,
+                    "size": 40,
+                    "duration": 2,
+                    "opacity": 8,
+                    "speed": 3
+                    },
+                    "repulse": {
+                    "distance": 200
+                    },
+                    "push": {
+                    "particles_nb": 4
+                    },
+                    "remove": {
+                    "particles_nb": 2
+                    }
+                }
+                },
+                "retina_detect": true,
+                "config_demo": {
+                "hide_card": false,
+                "background_color": "#b61924",
+                "background_image": "",
+                "background_position": "50% 50%",
+                "background_repeat": "no-repeat",
+                "background_size": "cover"
+                }
+            }
+
+            );
+        </script>
+    </body>
+</html>
