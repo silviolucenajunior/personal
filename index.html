@@ -30,11 +30,49 @@
                 </ul>
             </nav>
         </header>
+
+        <section class="about-me">
+            <h2 class="heading2">About me</h2>
+            <div class="about-me__bio">
+                <img class="about-me__avatar" src="/img/perfil.jpg" />
+                <div class="about-me__description">
+                    <p>I, my name is Silvio Lucena Junior, I have 30 years and i'm father of two little boys. Knowing software developmento world playing with GML, a script language of a old version of GameMaker editor.</p>
+                    <p>I like to think in another ways to solve problems, like a weel formated code and a elegant solution fashion, peharps it hard to due with deadlines, but i like.</p>
+                    <p>Morbi sagittis viverra vestibulum. Mauris convallis, tortor eget consectetur tempus, nisl eros luctus turpis, et condimentum orci sem sed ipsum.</p>
+                </div>
+            </div>
+            <div class="about-me__timeline">
+                <ul class="timeline">
+                    <li class="timeline__item">
+                        <h4>
+                        <date>2008</date>
+                        Index Comunicação Digital
+                        </h4>
+                        <p>Work focused in BackEnd with python/Django and Mysql and little javascript into front to interaction. Developing website and portals.</p>
+                    </li>
+                    
+                    <li class="timeline__item bottom">
+                        <p>Work focused in BackEnd with python/Django and Mysql and little javascript into front to interaction. Developing website and portals.</p>
+                        <h4>
+                        <date>2008</date>
+                        Index Comunicação Digital
+                        </h4>
+                    </li>
+                    <li class="timeline__item">
+                        <h4>
+                        <date>2008</date>
+                        Index Comunicação Digital
+                        </h4>
+                        <p>Work focused in BackEnd with python/Django and Mysql and little javascript into front to interaction. Developing website and portals.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
         <section class="skills">
             <h2 class="heading2">Skills</h2>
             <div class="skills__description">
-                <p>Ut accumsan ipsum risus, et varius tortor bibendum non. Fusce mattis maximus consequat. Proin turpis urna, commodo eget commodo eu, lacinia at justo. Pellentesque non orci quam. Nulla tempor nulla ut justo hendrerit, auctor facilisis mi pellentesque. Donec vel gravida tellus.
-</p>
+                <p></p>
             </div>
             <ul class="skills__list">
                 <li class="skills__item">
@@ -101,31 +139,13 @@
                 </li>
             </ul>
         </section>
-        <section class="about-me">
-            <h2 class="heading2">About me</h2>
-            <div class="about-me__bio">
-                <img class="about-me__avatar" src="/img/perfil.jpg" />
-                <div class="about-me__description">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel egestas nisi. Etiam ipsum odio, mollis eget ante blandit, molestie scelerisque justo. Mauris aliquam, odio vitae fermentum imperdiet, neque ligula tincidunt lacus, consequat vestibulum mauris nibh a nulla.</p>
-                    <p>Morbi sagittis viverra vestibulum. Mauris convallis, tortor eget consectetur tempus, nisl eros luctus turpis, et condimentum orci sem sed ipsum.</p>
-                </div>
-            </div>
-            <div class="about-me__timeline">
-                <ul>
-                    <li>
-                        <span>Index Comunicação Digital.</span>
-                    </li>
-                    <li>
-                        <span>Intrapoint</span>
-                    </li>
-                </ul>
-            </div>
-        </section>
+        
         </section class="contact">
            <div class="contact__information"></div>
            <div class="contact__form"></div>
            <div class="contact__social"></div>
         </section>
+
         <script src="/js/particles.js"></script>
         <script>
            particlesJS('particle-container',
@@ -133,60 +153,55 @@
             {
                 "particles": {
                 "number": {
-                    "value": 50,
+                    "value": 32,
                     "density": {
-                    "enable": true,
-                    "value_area": 800
+                       "enable": true,
+                       "value_area": 200
                     }
                 },
                 "color": {
-                    "value": "#ffffff"
+                    "value": "#267491"
                 },
                 "shape": {
                     "type": "circle",
                     "stroke": {
                     "width": 0,
-                    "color": "#000000"
+                       "color": "#000000"
                     },
                     "polygon": {
-                    "nb_sides": 5
-                    },
-                    "image": {
-                    "src": "img/github.svg",
-                    "width": 100,
-                    "height": 100
+                       "nb_sides": 3
                     }
                 },
                 "opacity": {
-                    "value": 0.5,
-                    "random": false,
+                    "value": 0.7,
+                    "random": true,
                     "anim": {
-                    "enable": false,
-                    "speed": 1,
-                    "opacity_min": 0.1,
-                    "sync": false
+                       "enable": true,
+                       "speed": 1,
+                       "opacity_min": 0.1,
+                       "sync": false
                     }
                 },
                 "size": {
-                    "value": 5,
+                    "value": 3,
                     "random": true,
                     "anim": {
                     "enable": false,
-                    "speed": 40,
+                    "speed": 57,
                     "size_min": 0.1,
                     "sync": false
                     }
                 },
                 "line_linked": {
                     "enable": true,
-                    "distance": 150,
+                    "distance": 50,
                     "color": "#ffffff",
                     "opacity": 0.4,
                     "width": 1
                 },
                 "move": {
                     "enable": true,
-                    "speed": 6,
+                    "speed": 4,
                     "direction": "none",
                     "random": false,
                     "straight": false,
@@ -202,14 +217,14 @@
                 "detect_on": "canvas",
                 "events": {
                     "onhover": {
-                    "enable": false,
+                    "enable": true,
                     "mode": "repulse"
                     },
                     "onclick": {
-                    "enable": false,
+                    "enable": true,
                     "mode": "push"
                     },
-                    "resize": true
+                    "resize": false
                 },
                 "modes": {
                     "grab": {
